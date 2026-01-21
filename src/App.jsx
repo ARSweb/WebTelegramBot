@@ -8,20 +8,6 @@ function App(){
     {name: "", age: ""}
   ])
 
-  // useEffect(() => {
-  //   const tg = window.Telegram?.WebApp;
-  //   if(tg){
-  //     setIsTelegram(true)
-  //     tg.ready();
-  //     tg.MainButton.setText("Malumotnoma Yaratish")
-  //     tg.MainButton.show();
-  //     tg.MainButton.onClick(() => {
-  //       console.log("Telegram main button bosildi");
-  //       // keyin generate qilamiz esingdan chiqmasin
-  //     })
-  //   }
-  // }, [])
-
   const addFamilyMember = () => {
     setFamily([...family, {name: "", age: ""}])
   }
